@@ -19,6 +19,7 @@
 		6580656619C0C82100184FA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6580654E19C0C82100184FA0 /* UIKit.framework */; };
 		6580656E19C0C82100184FA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6580656C19C0C82100184FA0 /* InfoPlist.strings */; };
 		6580657019C0C82100184FA0 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580656F19C0C82100184FA0 /* ViewTestTests.m */; };
+		6580657B19C0C8A200184FA0 /* DCSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580657A19C0C8A200184FA0 /* DCSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		6580656B19C0C82100184FA0 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		6580656D19C0C82100184FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6580656F19C0C82100184FA0 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		6580657919C0C8A200184FA0 /* DCSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSimpleView.h; sourceTree = "<group>"; };
+		6580657A19C0C8A200184FA0 /* DCSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				6580655919C0C82100184FA0 /* DCAppDelegate.h */,
 				6580655A19C0C82100184FA0 /* DCAppDelegate.m */,
+				6580657919C0C8A200184FA0 /* DCSimpleView.h */,
+				6580657A19C0C8A200184FA0 /* DCSimpleView.m */,
 				6580655C19C0C82100184FA0 /* Images.xcassets */,
 				6580655119C0C82100184FA0 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6580657B19C0C8A200184FA0 /* DCSimpleView.m in Sources */,
 				6580655719C0C82100184FA0 /* main.m in Sources */,
 				6580655B19C0C82100184FA0 /* DCAppDelegate.m in Sources */,
 			);
